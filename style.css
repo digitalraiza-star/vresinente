@@ -48,6 +48,7 @@ img {
     padding: 0 15px;
 }
 
+/* Botões */
 .btn {
     display: inline-block;
     padding: 12px 24px;
@@ -91,6 +92,7 @@ img {
     box-shadow: var(--shadow);
 }
 
+/* Seções */
 section {
     padding: 80px 0;
 }
@@ -118,7 +120,7 @@ section {
     background-color: var(--primary-color);
 }
 
-/* Header e Navegação */
+/* Header */
 header {
     background-color: var(--primary-color);
     color: var(--white);
@@ -184,9 +186,10 @@ nav ul li a:hover::after {
     cursor: pointer;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
-    background: linear-gradient(rgba(30, 144, 255, 0.8), rgba(70, 130, 180, 0.8)), url('https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    background: linear-gradient(rgba(30, 144, 255, 0.8), rgba(70, 130, 180, 0.8)),
+        url('https://images.unsplash.com/photo-1493863641943-9b68992a8d07?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     color: var(--white);
     text-align: center;
     padding: 150px 0;
@@ -398,7 +401,6 @@ footer {
     .about-content {
         flex-direction: column;
     }
-    
     .about-img, .about-text {
         flex: none;
         width: 100%;
@@ -410,23 +412,18 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-    
     .logo {
         margin-bottom: 15px;
     }
-    
     nav ul {
         margin-top: 15px;
     }
-    
     nav ul li {
         margin: 0 10px;
     }
-    
     .hero-content h2 {
         font-size: 2.5rem;
     }
-    
     .footer-content {
         flex-direction: column;
         gap: 20px;
@@ -440,7 +437,6 @@ footer {
         top: 20px;
         right: 20px;
     }
-    
     nav ul {
         display: none;
         flex-direction: column;
@@ -448,24 +444,19 @@ footer {
         text-align: center;
         margin-top: 20px;
     }
-    
     nav ul.show {
         display: flex;
     }
-    
     nav ul li {
         margin: 10px 0;
     }
-    
     .hero-content h2 {
         font-size: 2rem;
     }
-    
     .contact-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
     .contact-buttons .btn {
         width: 100%;
         max-width: 300px;
